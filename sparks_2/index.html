@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>
+        Payment gateway
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body 
+        {
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+            top: 50%;
+        }
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 97vh;
+        }
+        h4
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4 class="animate-charcter">Donate when you are ready</h4>
+          </div>
+        </div>
+    
+        <div class="dbutton">
+            <form align="center">
+                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IyAu2dknRxfBcz"
+                    async> </script>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
